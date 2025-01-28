@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML basics</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-    <h1>THIS IS MY BANNER TEXT</h1>
-    </header>
-    <main>
-  <article>
-    <nav class="line">
+        <h1 id="banner">THIS IS MY BANNER TEXT</h1>
         <nav>
             <ul>
-               <li><a href="#home">HOME</a></li>
-               <li><a href="info">INFO</a></li>
-               <li><a href="contact">CONTACT</a></li>
-               <li><a href="hubpages">HUBPAGES</a></li>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="#hub">HUBPAGES</a></li>
+            </ul>
         </nav>
-    </ul>
-</article>
-</main>
-    <h2>This is my paragraph header </h2>
-   
+    </header>
+    <main>
+        <article id="home">
+            <section>
+                <h2>THIS IS MY PARAGRAPH HEADER</h2>
+                <p class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tenetur architecto excepturi unde illo. Ducimus sunt aut expedita sint repellat adipisci quam deleniti ut totam ex quas dolorum, porro sed.</p>
+                <p class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptates ipsum facilis nemo vitae, a recusandae corrupti magnam placeat numquam ratione velit earum similique pariatur, ex sed doloribus deleniti! Expedita.</p>
+            </section>
+        </article>
+        
+    <footer>
+        <p>&copy; 2025 All Rights Reserved</p>
+    </footer>
 </body>
-</html>

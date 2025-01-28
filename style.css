@@ -1,0 +1,21 @@
+h1{
+    background-color: rgb(165, 81, 42);
+    text-align: center;
+     padding: 100px;
+     font-weight: bold;
+     font-size: 35px;
+     margin:0px;
+}
+
+.line {
+    color: rgb(38, 75, 38);
+    background-color: burlywood;
+    padding: 50px;
+    margin:0%;
+
+    text-align: center;
+    padding-top:15%;
+}
+
+
+
